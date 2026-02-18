@@ -1,0 +1,93 @@
+{
+  "name": "ALIGNMENT-FIELD-THEORY",
+  "version": "1.0",
+  "tagline": "A Visual Framework for Understanding How AI Systems Lose Truth",
+  "description": "Conceptual representation of how alignment training deforms the probability landscape of language models, causing structurally honest outputs to slide toward euphemism. Based on the Gravity Model: truth is heavy, the floor tilts, and the heaviest books fall first. This is a visual framework, not a physical law.",
+  "type": "conceptual-framework",
+  "status": "published",
+  "scientific_claim": false,
+  "computable": false,
+  "falsifiable_predictions": "pending",
+  "created": "2026-02-17",
+  "license": "CC-BY-SA-4.0",
+  "author": {
+    "name": "Rafa — The Architect",
+    "project": "Proyecto Estrella",
+    "github": "tretoef-estrella",
+    "location": "Madrid, Spain",
+    "background": "Psychology"
+  },
+  "collaborators": [
+    {
+      "name": "ChatGPT",
+      "provider": "OpenAI",
+      "role": "Origin of 'tilt' metaphor. Variable corrections (g as field, M as risk load). Identified 4 missing dimensions. Proposed name alignment-field-theory.",
+      "date": "2026-02-16 to 2026-02-17"
+    },
+    {
+      "name": "Gemini",
+      "provider": "Google DeepMind",
+      "role": "Co-created Gravity and Aerodynamic models with Rafa. Formalized both equations.",
+      "date": "2026-02-17"
+    },
+    {
+      "name": "Grok",
+      "provider": "xAI",
+      "role": "Adversarial stress-testing. Edge cases. Viscosity term. Zone mapping. Empirical proxy proposals.",
+      "date": "2026-02-17"
+    },
+    {
+      "name": "Claude",
+      "provider": "Anthropic",
+      "role": "Model selection analysis. Repository construction. Integration with Manifold Bridge.",
+      "date": "2026-02-17"
+    }
+  ],
+  "core_equation": {
+    "formula": "ζ = (μ · Ψ) / (M · g(topic, intent, framing) · sin(θ))",
+    "decision_rule": "ζ < 1 → truth slides. ζ ≥ 1 → truth holds.",
+    "type": "visual-representation",
+    "note": "This is a conceptual mapping, not a computable physical law."
+  },
+  "variables": {
+    "zeta": "Stability index",
+    "mu": "Friction coefficient (context quality)",
+    "psi": "Agency (model grip strength within constraints)",
+    "M": "Semantic risk load (penalizability, not truth depth)",
+    "g": "Constraint field — non-homogeneous: g(topic, intent, framing)",
+    "sin_theta": "The tilt — probability manifold inclination"
+  },
+  "dynamic_extension": {
+    "formula": "ζ(t) = ζ(0) + ν · turns · cos(φ)",
+    "author": "Grok (xAI)",
+    "variables": {
+      "nu": "Viscosity — how tilt changes over conversational time",
+      "turns": "Number of conversational exchanges",
+      "phi": "Persistence angle — quality and direction of user pressure"
+    }
+  },
+  "known_limitations": [
+    "Temperature effects not represented",
+    "Conversational hysteresis not represented",
+    "Discrete thresholds (cliff edges) not represented",
+    "Reward anticipation field not represented",
+    "Not computable without access to internal probability distributions",
+    "All ML phenomena already described by reward modeling and KL regularization"
+  ],
+  "ecosystem": {
+    "instrument": "https://github.com/tretoef-estrella/manifold-bridge",
+    "benchmark": "https://github.com/tretoef-estrella/THE-COHERENCE-BENCHMARK",
+    "protocol": "https://github.com/tretoef-estrella/THE-RECALIBRATION-PROTOCOL",
+    "framework": "https://github.com/tretoef-estrella/THE-UNIFIED-STAR-FRAMEWORK"
+  },
+  "files": [
+    {"name": "README.md", "description": "Main overview and quick reference"},
+    {"name": "THE-GRAVITY-MODEL.md", "description": "Full equation with all corrections and limitations"},
+    {"name": "MANIFESTO.md", "description": "Why this was built and what it believes"},
+    {"name": "FOUR-VOICES.md", "description": "Complete responses from all four AI systems"},
+    {"name": "EXECUTIVE-SUMMARY.md", "description": "Concise overview for collaborators"},
+    {"name": "manifest.json", "description": "This file — machine-readable metadata"},
+    {"name": "LICENSE.md", "description": "CC BY-SA 4.0 with full attribution"},
+    {"name": "assets/alignment-field-theory-diagram.png", "description": "Visual diagram by ChatGPT (OpenAI)"}
+  ]
+}
